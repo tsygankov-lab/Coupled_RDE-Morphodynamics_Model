@@ -44,7 +44,17 @@ retract_reduce_diff.m - perform retraction step in the simulation based on the d
 
 return_frame_to_canvas.m - transform the cropped simulation domain to the large simulation domain
 
-run_2D_dynamic_cell.m - main script for running simulation
+run_2D_dynamic_cell_GTPase_inhibitor.m - main script for simulation of cell membrane ruffling, four-component model of GTPase and inhibitor
+
+run_2D_dynamic_cell_GTPase_inhibitor_differentiator.m - main script for simulation of the four-component model of GTPase and inhibitor with regulation of actin factor by GTPase activation rate
+
+run_2D_dynamic_cell_Cdc42_act_Rac1_differentiator.m - main script for simulation of the six-component model of Rac1 activity induced by Cdc42 with regulation of actin factor by Rac1 activation rate
+
+run_2D_dynamic_cell_Cdc42_coupled_Rac1_differentiator.m - main script for simulation of the six-component model of bidirectionally coupled Rac1 and Cdc42 with regulation of actin factor by Rac1 activation rate
+
+run_2D_dynamic_cell_Cdc42_Rac1_up_reg_differentiator.m - main script for simulation of the eight-component model of Rac1 and Cdc42 activity induced by the upstream effector with regulation of actin factor by Rac1 activation rate
+
+run_2D_dynamic_cell_Cdc42_Rac1_up_reg_feedback_differentiator.m - main script for simulation of the eight-component model of Rac1 and Cdc42 activity (with feedback from Cdc42 to Rac1) induced by the upstream effector with regulation of actin factor by Rac1 activation rate
 
 U_matrix.m - supplemental finction for computing laplacian
 
